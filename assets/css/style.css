@@ -1,0 +1,17 @@
+body {
+    background-image: url("http://wesphelan.com/wp-content/uploads/2014/06/SOBjungle3.jpg")
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#answer {
+    text-align: center;
+}
+
+#letter {
+    width: 10%;
+    margin: 5% 0 5% 45%;
