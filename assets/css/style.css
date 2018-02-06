@@ -10,7 +10,7 @@ body {
     opacity: 0.6;
 }
 
-#answer {
+#answer, #counter, #stats {
     text-align: center;
     color: white;
     background-color: black;
@@ -23,3 +23,4 @@ body {
     width: 10%;
     margin: 5% 0 5% 45%;
     opacity: 0.8;
+}

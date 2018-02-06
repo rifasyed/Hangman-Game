@@ -32,14 +32,14 @@ function Letter() {
             }
         }
         count++;
-        document.getElementById("counter").innerHTML = "Guesses " + count;
+        document.getElementById("counter").innerHTML = letter;
         document.getElementById("answer").innerHTML = answerArray.join(" ");
     }
     if (count > 5) {
         document.getElementById("stats").innerHTML = "Guess faster";
     }
-    if (letterChoice == wordChoice) {
-        prompt("You win!s")
+    if (letter === wordChoice ) {
+        prompt("You win!")
     }
 }
 
