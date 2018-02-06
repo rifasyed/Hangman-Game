@@ -39,7 +39,7 @@ function Letter() {
         document.getElementById("stats").innerHTML = "Guess faster";
     }
     if (letterChoice == wordChoice) {
-        prompt("You win!")
+        prompt("You win!s")
     }
 }
 
