@@ -11,6 +11,8 @@ var count = 0;
 
 var answerArray = [];
 
+var correctCount = 0
+
 function startUp() {
     for (var i = 0; i < wordChoice.length; i++) {
         answerArray[i] = "_ ";
@@ -29,6 +31,7 @@ function Letter() {
         for (var i = 0; i < wordChoice.length; i++) {
             if (wordChoice[i] === letter) {
                 answerArray[i] = letter;
+                correctCount++
             }
         }
         count++;
@@ -38,7 +41,7 @@ function Letter() {
     if (count > 5) {
         document.getElementById("stats").innerHTML = "Guess faster";
     }
-    if (wordChoice.length === count ) {
+    if (wordChoice.length === correctCount ) {
         alert("You win!")
     }
 }
