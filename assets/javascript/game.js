@@ -38,8 +38,8 @@ function Letter() {
     if (count > 5) {
         document.getElementById("stats").innerHTML = "Guess faster";
     }
-    if (letter === wordChoice ) {
-        prompt("You win!")
+    if (wordChoice.length === count ) {
+        alert("You win!")
     }
 }
 
